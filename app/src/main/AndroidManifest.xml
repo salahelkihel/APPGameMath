@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gamemath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/log"
+        android:label="Jeux Math"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vs" />
+        <activity android:name=".vf" />
+        <activity android:name=".quiz" />
+        <activity android:name=".table_multiplication" />
+        <activity android:name=".division" />
+        <activity android:name=".multiplication" />
+        <activity android:name=".soustraction" />
+        <activity android:name=".addition" />
+        <activity android:name=".menu_choix" />
+        <activity android:name=".menu_math" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

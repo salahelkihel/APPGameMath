@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+    <ImageView
+        android:layout_marginLeft="150dp"
+        android:id="@+id/iconJ1"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:src="@drawable/v" />
+
+    <ImageView
+        android:layout_marginLeft="40dp"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:src="@drawable/ff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+        <TextView
+            android:id="@+id/j1"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:text="Joueur 1 :"
+            android:textColor="#00BFFF"
+            android:textSize="23sp"
+            android:textStyle="bold"
+             />
+
+
+
+        <TextView
+            android:id="@+id/vrJ1"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#25C13A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+
+        <TextView
+            android:id="@+id/fJ1"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#DC143C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <TextView
+            android:id="@+id/ganJ1"
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:background="@drawable/ganee"
+            android:textSize="18sp"
+            android:textStyle="bold"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/j2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:text="Joueur 2 :"
+            android:textColor="#ff0000"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            />
+
+
+
+        <TextView
+            android:id="@+id/vrJ2"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#25C13A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+
+        <TextView
+            android:id="@+id/fJ2"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#DC143C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="108dp" />
+        <TextView
+            android:id="@+id/ganJ2"
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:background="@drawable/ganee"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/playvs"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rejouer"
+            android:text="Rejouer"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <Button
+            android:id="@+id/qtvs"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/sortie"
+            android:text="Sortie"
+
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="202dp" />
+    </LinearLayout>
+
+</LinearLayout>

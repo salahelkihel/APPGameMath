@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".table_multiplication"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text=" Tables de multiplication"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_t"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:text="Table de 1"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/img_t"
+        android:layout_width="match_parent"
+        android:layout_height="783dp"
+        app:srcCompat="@drawable/table_1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <Button
+            android:id="@+id/btn_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/next"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_pr"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/previous" />
+    </RelativeLayout>
+
+</LinearLayout>

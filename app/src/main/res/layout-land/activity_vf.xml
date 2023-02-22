@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vf"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nbrvf"
+        android:layout_width="94dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="620dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_butf"
+        android:gravity="center"
+        android:text="1/15"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:id="@+id/textView6vf"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Vrais"
+            android:textColor="#92F038"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <TextView
+            android:id="@+id/textView7vf"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="/"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <TextView
+            android:id="@+id/textView8vf"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Faux"
+            android:textColor="	#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="72dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView1vf"
+            android:layout_width="65dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/textView2vf"
+            android:layout_width="37dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+
+        <TextView
+            android:id="@+id/textView3vf"
+            android:layout_width="58dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/textView4vf"
+            android:layout_width="41dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="="
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/textView5vf"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/buttonv"
+            android:layout_width="99dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_but"
+            android:text="Vrais"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonf"
+            android:layout_width="99dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_but"
+            android:text="Faux"
+            android:textColor="#B10606"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
